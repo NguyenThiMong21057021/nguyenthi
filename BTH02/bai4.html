@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+</head>
+
+<body style="text-align: center;line-height: 3rem;">
+    <h1>Tính chỉ số BMI</h1>
+    <form onsubmit="return tinhBMI()">
+        <label for="can_nang">Cân nặng (kg):</label>
+        <input type="number" id="can_nang" name="can_nang" required>
+        <br>
+        <label for="chieu_cao">Chiều cao (m):</label>
+        <input type="float" id="chieu_cao" name="chieu_cao" required>
+        <br>
+        <label for="loai_tuoi">Loại tuổi:</label>
+        <select id="loai_tuoi" name="loai_tuoi" required>
+            <option value="trung_nien">Trung niên</option>
+            <option value="trung_nien_gia_lon_tuoi">Trung niên, Già lớn tuổi</option>
+            <option value="gia_lon_tuoi">Già, lớn tuổi</option>
+        </select>
+        <br>
+        <button type="submit">Tính</button>
+    </form>
+    <h2>Kết quả</h2>
+    <p id="bmi"></p>
+    <p id="phan_loai"></p>
+    <p id="khuyen_nghi"></p>
+    <script src="scripts.js"> </script>
+</body>
+
+</html>

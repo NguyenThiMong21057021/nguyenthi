@@ -1,0 +1,165 @@
+/* bai 1 */
+.bai1 {
+    font-family: Arial;
+    text-align: center;
+    margin: 20px;
+}
+.bai1 h1 {
+    font-size: 30px;
+}
+.bai1 input {
+    font-size: 20px;
+}
+.bai1 button {
+    font-size: 20px;
+}
+.bai1 div {
+    font-size: 20px;
+}
+/* bai 2 */
+        .bai2 {
+            font-family: Arial;
+            text-align: center;
+            color:darkgray;
+            letter-spacing: normal;
+            font-size: 14px;
+        }
+        .bai2 h1{
+            font-family: Arial;
+            color:blueviolet;
+            font-size: 35px;
+            text-align: center;
+        }
+        .bai2 button {
+            background-color: blue;
+            color: white;
+            width: 350px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .bai2 .anh {
+            width: 20px;
+        }
+        .bai2 div{
+            background-color: #F5F5F5;
+            border:1px solid #ddd;
+            padding: 20px;
+            width: 800px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .bai2 label {
+            display: block;
+            margin-bottom: 7px;
+        }
+        .bai2 input {
+            width: 350px;
+            height: 30px;
+        }
+        .bai2 select {
+            width: 360px;
+            height: 38px;
+        }
+        .bai2 table {
+            width:800px;
+        }
+        #loaikh {
+            color: #696969;
+        }
+        #mota {
+            width: 750px; 
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+/* bai 3 */
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.thongtin, .lienhe {
+    flex: 1;
+    padding: 10px;
+}
+.thongtin p {
+    color: #696969;
+}
+h1 {
+    color: blue;
+    text-indent: 250px;
+}
+hr {
+    border-color: red;
+    border-top: 5;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.container input{   
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+.container button {
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
+    cursor: pointer;
+}
+#noidung {
+    height: 100px;
+}
+.lienhe h3{
+    color: darkviolet;
+}
+/* bai 4 */
+
+
+/* bai 5 */
+.container .login-form {
+    margin: auto;
+    width:600px;
+}
+.container button{
+    margin-bottom: 10px;
+    background-color: black;
+    border: 0px;
+    cursor: pointer;
+}
+.container h1{
+    color: black;
+}
+.container input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+/* bai 6 */
+.container h3, p{
+    text-align: center;
+    color: black;
+}
+#remember-me {
+    width: 15px;
+    cursor: pointer;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    background: rgb(171, 205, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container input {
+    background-color: rgb(147, 172, 157);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container button {
+    background-color: black;
+  }

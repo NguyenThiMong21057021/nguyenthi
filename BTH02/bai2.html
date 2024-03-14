@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bài 2</title>
+</head>
+<body>
+    <main class="bai2">
+        <h1> ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM </h1>
+        <p> Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+        <p> Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i> (nếu có).</i></p>
+        <div>
+            <table>
+            <form  action="#">
+            <tr> 
+                <td> <label for="hoten"></label>
+                <input type="text" id="hoten" placeholder="Họ và tên" required> <br> </td>
+                <td> <label for="mathe"></label>
+                <input type="text" id="mathe" placeholder="Mã thẻ" required> <br> </td>
+            </tr>
+            <tr>
+                <td> <label for="sdt"></label>
+                <input type="sdt" id="sdt" placeholder="Số điện thoại" required> <br> </td>
+                <td> <label for="email"></label>
+                <input type="text" id="email" placeholder="Email" required> <br> </td>
+            </tr>
+            <tr>
+                <td> <label for="loaikh"></label>
+                    <select id="loaikh">
+                        <option value=""> Chọn loại khách hàng </option>
+                        <option value="VIP"> VIP </option>
+                        <option value="Thường"> Thường </option>
+                        <option value="KH mới"> Khách hàng mới </option>
+                    </select> <br> </td>
+                <td> <label for="mahd"></label>
+            <input type="text" id="mahd" placeholder="Mã hóa đơn" required> <br> </td>
+            </tr>
+            <tr>
+                <th colspan="2"> <label for="mota"></label>
+                <input type="text" id="mota" placeholder="Nhập chi tiết mô tả" required> </th>
+            </tr>
+            <tr>
+                <td> <button onclick="gopy()"> GỬI GÓP Ý <img class="anh" src="bai2.png"></button> </td>
+            </tr>
+            </table>
+        </div>
+    </form>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
